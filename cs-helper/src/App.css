@@ -1,0 +1,57 @@
+.App {
+ background: linear-gradient(45deg, #dc4ff1, #73ed8a, #76f1c0);
+ height: 100vh;
+}
+
+.logowhite {
+    width: 6rem;
+    height: auto;
+    margin-right: 5px;
+}
+
+.codecoach {
+    color: white;
+    font-size: 5rem;
+}
+
+.appflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+}
+
+.navflex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30rem;
+}
+
+.appbutton {
+  color: white;
+  background: none;
+  padding: 1rem;
+  width: 14rem;
+  border-radius: 20px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.appbutton:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.appcenter {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.navlink {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}

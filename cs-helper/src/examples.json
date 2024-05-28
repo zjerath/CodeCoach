@@ -1,0 +1,122 @@
+{
+  "functions": [
+    {
+      "name": "/",
+      "description": "Divides one value by another.",
+      "basePrompt": "Write example C++ code for the / function with inputs of",
+      "inputs": {
+        "input1": [
+          {
+            "type": "float",
+            "example": "20.5"
+          },
+          {
+            "type": "int",
+            "example": "20"
+          }
+        ],
+        "input2": [
+          {
+            "type": "float",
+            "example": "4.6"
+          },
+          {
+            "type": "int",
+            "example": "5"
+          }
+        ]
+      }
+    },
+    {
+      "name": "*",
+      "description": "Multiplies one value by another.",
+      "basePrompt": "Write example C++ code for the * function with inputs of",
+      "inputs": {
+        "input1": [
+          {
+            "type": "float",
+            "example": "3.5"
+          },
+          {
+            "type": "int",
+            "example": "4"
+          }
+        ],
+        "input2": [
+          {
+            "type": "float",
+            "example": "8.2"
+          },
+          {
+            "type": "int",
+            "example": "7"
+          }
+        ]
+      }
+    },
+    {
+      "name": "scanf",
+      "description": "Reads formatted input from the standard input stream.",
+      "basePrompt": "Write example C++ code for the scanf function with inputs of",
+      "inputs": {
+        "input1": [
+          {
+            "type": "",
+            "example": "int"
+          },
+          {
+            "type": "",
+            "example": "float"
+          },
+          {
+            "type": "",
+            "example": "char"
+          },
+          {
+            "type": "",
+            "example": "string"
+          }
+        ],
+        "input2": [
+          {
+            "type": "",
+            "example": "static"
+          },
+          {
+            "type": "",
+            "example": "buffer"
+          },
+          {
+            "type": "",
+            "example": "dynamically allocated buffer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "printf",
+      "description": "Writes formatted output to the standard output stream.",
+      "basePrompt": "Write example C++ code for the printf function with inputs of",
+      "inputs": {
+        "input1": [
+          {
+            "type": "string",
+            "example": "'Hello, world!'"
+          },
+          {
+            "type": "int",
+            "example": "42"
+          },
+          {
+            "type": "float",
+            "example": "3.14"
+          },
+          {
+            "type": "char",
+            "example": "'A'"
+          }
+        ]
+      }
+    }
+  ]
+}

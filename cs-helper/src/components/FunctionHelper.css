@@ -1,0 +1,119 @@
+.center {
+    justify-content: center;
+    text-align: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-button {
+    border: 1px solid #d3d3d3;
+    background-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.custom-button:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.custom-button:not(:last-child) {
+    border-right: none;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.custom-button:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.custom-button:hover {
+    background-color: #d3d3d3;
+}
+
+.promptflex {
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
+
+.flexfunction {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h3flex {
+    margin-bottom: 28px;
+    margin-right: 5px;
+}
+
+.banner {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.bannerflex {
+    display: flex;
+    align-items: center;
+}
+  
+.logo {
+    width: 40px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.banner h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.bannerbut1 {
+  padding: 1rem;
+  width: 10rem;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.bannerbut1:hover {
+    background-color: #d3d3d3;
+}
+
+.bannerbut2 {
+  background: linear-gradient(45deg, #dc4ff1, #73ed8a, #76f1c0);
+  color: white;
+  padding: 1rem;
+  width: 9rem;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.bannerbut2:hover {
+    background: linear-gradient(45deg, #e78eff, #a7ffcd, #b2ffda);
+}
+
+.bannerlink {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}

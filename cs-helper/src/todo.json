@@ -1,0 +1,139 @@
+{ "nothing": [
+    {
+    "name": "strcpy",
+    "description": "Copies a string from source to destination.",
+    "inputs": [
+        {
+        "type": "string",
+        "example": "\"source\""
+        },
+        {
+        "type": "string",
+        "example": "\"destination\""
+        }
+    ]
+    },
+    {
+    "name": "strlen",
+    "description": "Calculates the length of a string, excluding the null-terminator.",
+    "inputs": [
+        {
+            "type": "string",
+            "example": "\"hello\""
+        }
+    ]
+    },
+    {
+    "name": "getchar",
+    "description": "Reads a single character from the standard input stream.",
+    "inputs": []
+    },
+    {
+    "name": "putchar",
+    "description": "Writes a character to the standard output stream.",
+    "inputs": [
+        {
+            "type": "character",
+            "example": "'A'"
+        }
+    ]
+    },
+    {
+    "name": "strcmp",
+    "description": "Compares two strings.",
+    "inputs": [
+        {
+            "type": "string",
+            "example": "\"hello\""
+        },
+        {
+            "type": "string",
+            "example": "\"world\""
+        }
+    ]
+    },
+    {
+    "name": "fopen",
+    "description": "Opens a file for input or output.",
+    "inputs": [
+        {
+            "type": "string",
+            "example": "\"filename.txt\""
+        },
+        {
+            "type": "string",
+            "example": "\"r\""
+        }
+    ]
+    },
+    {
+    "name": "fclose",
+    "description": "Closes an open file stream.",
+    "inputs": [
+        {
+            "type": "file stream",
+            "example": "file"
+        }
+    ]
+    },
+    {
+    "name": "fgets",
+    "description": "Reads a line from a file stream.",
+    "inputs": [
+        {
+            "type": "string",
+            "example": "\"buffer\""
+        },
+        {
+            "type": "integer",
+            "example": "100"
+        },
+        {
+            "type": "file stream",
+            "example": "file"
+        }
+    ]
+    },
+    {
+    "name": "fscanf",
+    "description": "Reads formatted input from a file stream.",
+    "inputs": [
+        {
+            "type": "file stream",
+            "example": "file"
+        },
+        {
+            "type": "string",
+            "example": "\"%d %f\""
+        },
+        {
+            "type": "integer",
+            "example": "num"
+        },
+        {
+            "type": "float",
+            "example": "flt"
+        }
+    ]
+    },
+    {
+    "name": "malloc",
+    "description": "Allocates memory dynamically.",
+    "inputs": [
+        {
+            "type": "integer",
+            "example": "sizeof(int)"
+        }
+    ]
+    },
+    {
+    "name": "free",
+    "description": "Frees dynamically allocated memory.",
+    "inputs": [
+        {
+            "type": "pointer",
+            "example": "ptr"
+        }
+    ]
+    }]
+}
